@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Acta.Api/Acta.Api.csproj" />
+    <Project Path="src/Acta.Application/Acta.Application.csproj" />
+    <Project Path="src/Acta.Domain/Acta.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Acta.Application.Tests/Acta.Application.Tests.csproj" />
+    <Project Path="tests/Acta.ArchitectureTests/Acta.ArchitectureTests.csproj" />
+    <Project Path="tests/Acta.Domain.Tests/Acta.Domain.Tests.csproj" />
+    <Project Path="tests/Acta.IntegrationTests/Acta.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

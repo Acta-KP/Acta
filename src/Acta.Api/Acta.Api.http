@@ -1,0 +1,6 @@
+@Acta.Api_HostAddress = http://localhost:5096
+
+GET {{Acta.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
