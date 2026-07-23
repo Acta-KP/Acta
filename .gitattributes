@@ -1,0 +1,47 @@
+# Auto detect text files and normalize line endings to LF in the repo.
+# Git will still check them out using the native line ending of your OS.
+* text=auto eol=lf
+
+# Explicit text files
+*.cs text diff=csharp
+*.csx text diff=csharp
+*.cshtml text
+*.razor text
+*.sln text eol=crlf
+*.slnx text
+*.csproj text
+*.props text
+*.targets text
+*.config text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.md text
+*.txt text
+*.editorconfig text
+*.gitattributes text
+*.gitignore text
+*.http text
+
+# Windows-only scripts must keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Unix-only scripts must keep LF
+*.sh text eol=lf
+
+# Binary files - never touch line endings, no diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.snk binary
+*.zip binary
+*.7z binary
