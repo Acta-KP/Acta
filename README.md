@@ -13,6 +13,7 @@
 ## Requirements
 
 - .NET SDK 10.0.100 (see `global.json`)
+- xUnit v2 (2.9.3) — the version pinned by the `dotnet new xunit` template under SDK 10.0.100/10.0.400, used across all four test projects
 
 ## Getting started
 
